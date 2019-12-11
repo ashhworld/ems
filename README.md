@@ -42,6 +42,8 @@ E:\projects
 6. Run Sql script for dummy Employee data:
 in your database "ems".
 
+File found in attchment "ems_users_salary.sql"
+
 
 
 Steps to create local domain:
@@ -53,9 +55,9 @@ Steps to create local domain:
 2. edit file and paste the below code and update by your configuration
 
     <VirtualHost *:80>
-        DocumentRoot "c:/xampp/htdocs/WordPress"
+        DocumentRoot "E:/projects/ems/public"
         ServerName ems.localhost
-        <Directory "c:/xampp/htdocs/WordPress">
+        <Directory "E:/projects/ems/public">
         </Directory>
     </VirtualHost>
 
